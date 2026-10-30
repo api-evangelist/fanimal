@@ -64,6 +64,44 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Fanimal is a company surfaced as a portfolio company of bullpen-capital and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+> **No longer operating.** This company or product has shut down, been discontinued, or been deprecated. This profile is kept as a historical record and is not maintained or rated.
 
-Backed by: bullpen-capital — https://fanimal.com
+Fanimal was surfaced as a portfolio company of bullpen-capital and added to the API Evangelist network as a stub for enrichment. Re-verified on 2026-07-20, the primary domain fanimal.com remains a parked, Cloudflare-fronted redirect — every path probed (root, /llms.txt, /.well-known/security.txt, /.well-known/openid-configuration, /.well-known/api-catalog, and the api./developer./docs. subdomains) returns HTTP 301 to https://tickpick.com/?fanimal=y. The ?fanimal=y attribution marker on a redirect into a ticket-resale marketplace indicates the property is defunct or has been absorbed by TickPick. No package was found on npm, PyPI, RubyGems, or crates.io; the github.com/Fanimal organization exists but is empty (0 public repos, no profile metadata) and cannot be verified as the same company. No independent Fanimal API, developer portal, OpenAPI spec, MCP server, or reachable /.well-known/ surface exists to enrich; there is no spec-bearing developer surface to ground any artifact against. The registered domain is still administered (live TLS, HSTS, SES SPF, Google and Klaviyo site-verification TXT records), which is captured in the probed domain-security artifact.
+
+**Areas:** Company · Defunct · Event · Ticketing · Marketplace
+
+## Fanimal on APIs.io (historical record)
+
+Everything profiled for Fanimal is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/fanimal/](https://apis.io/providers/fanimal/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Fanimal Domain Security](https://apis.io/security/fanimal/fanimal-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://fanimal.com)
+
+## API Evangelist rating
+
+**Not rated** — this company is recorded as no longer operating, so no score is published. If it is in fact operating, say so on this repository and it will be re-profiled.
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Fanimal: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/fanimal/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
